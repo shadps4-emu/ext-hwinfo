@@ -5,6 +5,7 @@
 
 #ifdef HWINFO_APPLE
 
+#include <algorithm>
 #include <mach/mach.h>
 #include <mach/mach_time.h>
 #include <sys/sysctl.h>
